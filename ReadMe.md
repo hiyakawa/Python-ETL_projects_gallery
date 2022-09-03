@@ -1,6 +1,6 @@
 Python ETL Projects Gallery
 ===========================
 
-An overview to the Python ETL projects developed through May to August 2022.
+An overview of the Object Oriented Programming projects developed from May to August 2022.
 
-Copyright(c)	07/28/2022 Muyuan Zhang
+Copyright(c)	08/01/2022 Muyuan Zhang
