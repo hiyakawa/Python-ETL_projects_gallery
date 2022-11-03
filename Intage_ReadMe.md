@@ -1,6 +1,8 @@
-Intage Automation Tool
+# Intage Automation Tool
 
-Developed by Muyuan Zhang @RBS FLEX Team (zhangmuy@amazon.com)
+#### Developed by Muyuan Zhang @RBS FLEX Team (zhangmuy@amazon.com)
+
+## Overview
 
 此python应用程序是为日本亚马逊fresh Intage Automation任务而设计。请依照以下步骤运行程序。在运行过程中，用户不需要输入任何值。如需停止运行，请随时关闭黑色窗口。
 
@@ -31,9 +33,9 @@ intage_auto_tool文件夹中会生成vendor_code.xlsx、empty_vendor_code.xlsx�
 所有邮件生成后，intage_auto_tool文件夹中会生成email.txt。文件内容示例：
 
 email.txt
-* email(s) generated. All succeeded.
+\# email(s) generated. All succeeded.
 
-*为生成的邮件个数，小于等于需要对应的vendor code总数。email.txt生成后，程序即结束，黑色窗口自行关闭。
+\# 为生成的邮件个数，小于等于需要对应的vendor code总数。email.txt生成后，程序即结束，黑色窗口自行关闭。
 
 如有任何问题或后续需求，请联系开发者。
 
@@ -42,9 +44,11 @@ Copyright(c)	07/01/2022 Muyuan Zhang
 
 *** English version ***
 
-Intage Automation Tool
+# Intage Automation Tool
 
-Developed by Muyuan Zhang @RBS FLEX Team (zhangmuy@amazon.com)
+#### Developed by Muyuan Zhang @RBS FLEX Team (zhangmuy@amazon.com)
+
+## Overview
 
 This is a python application developed for Amazon JP fresh Intage Automation task. Please follow the steps below to run the application. Users are not required to make any inputs during the whole process. Please close the console window anytime if you need to stop the application.
 
@@ -77,9 +81,9 @@ email.txt will be generated in the intage_auto_tool folder after all the email d
 
 Example:
 email.txt
-* email(s) generated. All succeeded.
+\# email(s) generated. All succeeded.
 
-* is the total number of emails, which is equal to or smaller than the number of involved vendor codes. After email.txt is generated, the application will finish and the console window will close.
+\# is the total number of emails, which is equal to or smaller than the number of involved vendor codes. After email.txt is generated, the application will finish and the console window will close.
 
 Please contact the developer if there are any issues or further requirements.
 
