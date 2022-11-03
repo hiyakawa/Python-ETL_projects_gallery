@@ -2,13 +2,15 @@
 
 #### Developed by Muyuan Zhang @RBS FLEX Team (zhangmuy@amazon.com)
 
+## Overview
+
 此python应用程序是为日本亚马逊fresh IDQ Hawk Image自动化任务而设计。请依照以下步骤运行程序。如需停止运行，请随时关闭黑色窗口。
 
 请注意两个压缩包对应不同功能，idqhawk_image_display.zip的功能是将生成的邮件存为草稿，而idqhawk_image_send.zip则会直接发送邮件。除此之外，这两个应用程序的使用步骤和输出文件完全相同。以下使用步骤均以idqhawk_image_display.zip为例。
 
 !在运行idqhawk_image_send.zip内的应用程序前，请务必检查源数据、签名和例外vendor codes等对应的输入文档!
 
-首先，请按照SOP给出的地址https://datacentral.a2z.com/dw-platform/servlet/dwp/template/EtlViewExtractJobs.vm/job_profile_id/10358527，点击Job #22268993 Revision #2: Combined ASIN Level Data with Merchant Name旁的时钟图标，进入Status为Success且Dataset Date距今最近的一条结果，在网页右侧选中UTF-8与Text (请注意此处与SOP要求不同)，下载results.txt。如果下载的文件没有拓展名，请手动添加.txt为文件后缀。
+首先，请按照SOP给出的地址，点击Job #22268993 Revision #2: Combined ASIN Level Data with Merchant Name旁的时钟图标，进入Status为Success且Dataset Date距今最近的一条结果，在网页右侧选中UTF-8与Text (请注意此处与SOP要求不同)，下载results.txt。如果下载的文件没有拓展名，请手动添加.txt为文件后缀。
 
 解压idqhawk_image_display.zip后，将results.txt移入idqhawk_image_display文件夹。请检查并修改此文件夹内的exceptions.xlsx (如有无需作业的vendor code更新) 和name.txt (此文件内的文字将会出现在所有邮件签名处)。如需在签名内换行，请按enter键正常换行。
 
